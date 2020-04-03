@@ -1,0 +1,8 @@
+LIBRARY mass_balance_ode_conserved_small_mex.mexw64
+EXPORTS
+mexFunction
+emlrtMexFcnProperties
+mass_balance_ode_conserved
+mass_balance_ode_conserved_initialize
+mass_balance_ode_conserved_terminate
+mass_balance_ode_conserved_atexit
