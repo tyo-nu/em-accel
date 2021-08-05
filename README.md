@@ -10,11 +10,14 @@ Available Model Sizes:
 
 1. Write elasticity coefficient and mass_balance_ODE_mex files specific to model size
 
+```
 zz_SET_UP('model_size')
-
-ex: zz_SET_UP('small')
-
-2. Open TEST_SCRIPT and Alter to input Model Size, Ensemble Size, and Screening Paramters
+```
+ex:
+```
+zz_SET_UP('small')
+```
+2. Open TEST_SCRIPT and alter to input Model Size, Ensemble Size, and Screening Parameters
 
 
 Portions of ensemble modeling code was adapted from MATLAB scripts provided by the Liao and Maranas groups:
